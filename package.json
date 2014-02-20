@@ -1,18 +1,10 @@
 {
-  "name": "remove-component",
-  "author": "Damian Suarez <rdsuarez@gmail.com>",
+  "name": "retrofox-remove",
+  "description": "Remove an item from array",
   "version": "1.0.0",
+  "keywords": [],
   "dependencies": {
-    "uniq-component": "1.0.0",
-    "indexof-component": "0.0.1"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "remove/index.js": "index.js"
-    }
+    "retrofox-uniq": "git://github.com/npmcomponent/retrofox-uniq.git",
+    "component-indexof": "git://github.com/npmcomponent/component-indexof.git"
   }
 }

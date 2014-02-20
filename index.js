@@ -4,11 +4,11 @@
  */
 
 try {
-  var indexOf = require('indexof');
-  var uniq = require('uniq');
+  var indexOf = require('component-indexof');
+  var uniq = require('retrofox-uniq');
 } catch(e){
-  var indexOf = require('indexof-component');
-  var uniq = require('uniq-component');
+  // commented out by npm-component: var indexOf = require('indexof-component');
+  // commented out by npm-component: var uniq = require('uniq-component');
 }
 
 /**
